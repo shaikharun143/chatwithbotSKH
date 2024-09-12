@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat With Bot </title>
+    <link rel="stylesheet" href="stylespp.css">
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+
+    <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.39.0/gradio.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.3/dist/tailwind.min.css" rel="stylesheet" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="robots" content="none,noarchive"/>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="profile-section">
+            <div>
+                <img class='student-pic' src="https://herobot.app/wp-content/uploads/2022/11/AI-bot-1.jpg" alt="ProfilePic" />
+            </div>
+            <div class="profile-info-container">
+                <h3 class="name">Shaik Harun</h3>
+                <p class="bot-extra-info"> Intelligent & Dynamic AI</p>
+            </div>
+
+
+        </div>
+        <div class="project-details-container">
+            <div class="project-heading">
+                <h1 class="heading">Generative AI </h1>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <h1 class="chat-container-heading">Chat With Bot</h1>
+            <div class="start-from-down-container">
+                <div class="main-chat-discuss-container" id="mainChatBox"> </div>
+
+            </div>
+            <div class="chat-text-button-container">
+                <input type="text" id="messageInput" class="message-Input" placeholder="Messages ChatBot" />
+                <button id="sendButton" class="send-Button"> <i class="fa-solid fa-up-long" style="color: #f1f1f1;" id="button-icon"></i></button>
+            </div>
+            <p class="para-chatbot-mistake">ChatBot can make Mistakes,so it's important to verify key info.</p>
+        </div>
+
+    </div>
+
+<script src="scriptpp.js"></script>
+</body>
+
+</html>
